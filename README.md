@@ -39,7 +39,7 @@ For meterpreter attacks, only python payloads are supported at the moment.
 See https://github.com/cldrn/macphish/wiki/Usage
 
 ## PoCs
-* <https://drive.google.com/open?id=0BzPR8exG0kt6TlY1UWhiemVKRnc>
-* <https://drive.google.com/open?id=0BzPR8exG0kt6WWUzU0tKUjFhdjg>
-* <https://drive.google.com/open?id=0BzPR8exG0kt6VzlaWVVJdEtNR0k>
-* <https://drive.google.com/open?id=0BzPR8exG0kt6SnJwM01KSzAzMjA>
+* [Sandbox evasion using GrantAccessToMultipleFiles in word for mac](https://youtu.be/3F_VdPr-7K8)
+* [PoC of Global And Recursive Permissions - Malicious macros for Word in MacOS](https://youtu.be/hSJH5rse4wQ)
+* [Meterpreter execution in Office For Mac with macros](https://youtu.be/xXA-n1D1Fqw)
+* [Credential Harvesting (Phishing) with Word macros in macOS](https://youtu.be/p0qfg0WI3sE)
